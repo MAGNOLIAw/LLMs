@@ -17,7 +17,7 @@ It leverages the following tools and libraries:
   - [2. Text Splitting](#2-text-splitting)
   - [3. Embedding & Vector Store](#3-embedding--vector-store)
   - [4. Retrieval & Question Answering](#4-retrieval--question-answering)
-- [5. Interact with Gradio UI](#5-Interact-with-Gradio-UI)
+- [Interact with Gradio UI](#5-Interact-with-Gradio-UI)
 
 ## Environment Setup
 
@@ -87,7 +87,7 @@ For vectorization, the project uses a Hugging Face **Sentence Transformer** mode
 
 - LangChain’s `RetrievalQA` combines context with the chosen LLM (WizardLM, LLaMA2, Mistral).
 
-### 5. Interact with Gradio UI
+## Interact with Gradio UI
 - Users can query interactively via [Gradio](https://www.gradio.app/).
 
 #### Demo Screenshots
