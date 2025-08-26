@@ -39,7 +39,7 @@ This project implements a **RAG workflow** using [LangChain](https://www.langcha
   ```bash
   brew install --cask calibre
   ```
-- Batch conversion script: ./convert_epub2pdf.sh
+- Batch conversion script: `./convert_epub2pdf.sh`
 - Example usage:
 ```
 cd "/Users/xinyi.wang/downloads/Harry Potter UK Edition"
