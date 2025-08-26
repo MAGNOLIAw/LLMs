@@ -88,7 +88,8 @@ For vectorization, the project uses a Hugging Face **Sentence Transformer** mode
 - LangChain’s `RetrievalQA` combines context with the chosen LLM (WizardLM, LLaMA2, Mistral).
 
 ## Interact with Gradio UI
-- Users can query interactively via [Gradio](https://www.gradio.app/).
+
+Users can query interactively via [Gradio](https://www.gradio.app/).
 
 #### Demo Screenshots
 - Ask a question
