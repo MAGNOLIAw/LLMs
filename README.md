@@ -43,19 +43,19 @@ scp -P 19880 -r ~/downloads/"Harry Potter UK Edition"/pdf_out xinyi@xx.xx.xx.xxx
 - Example: 7 PDF books (~3625 pages) are ingested.
 
 ---
-2. Text Splitting
+### 2. Text Splitting
 
 - Documents are chunked into smaller pieces to optimize retrieval.
 
 - Splitting ensures manageable context size for embedding and LLM input.
 
 ---
-3. Embedding & Vector Store
+### 3. Embedding & Vector Store
 - Uses [Sentence-Transformers](https://www.sbert.net/) from Hugging Face.
 - Embedding model: `all-MiniLM-L6-v2`
 - Stores vectors in [FAISS](https://faiss.ai/), enabling fast similarity search.
 
-## Embedding Model
+**Embedding Model**
 
 For vectorization, the project uses a Hugging Face **Sentence Transformer** model:
 
@@ -63,8 +63,8 @@ For vectorization, the project uses a Hugging Face **Sentence Transformer** mode
 |-------------|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | **MiniLM-L6-v2** | [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) | A lightweight 384-dimensional sentence transformer providing a good balance between speed and accuracy. Ideal for semantic search and retrieval tasks. |
 
-
-4. Retrieval & Question Answering
+---
+### 4. Retrieval & Question Answering
 
 - A retriever fetches the most relevant text chunks from FAISS.
 
@@ -72,5 +72,6 @@ For vectorization, the project uses a Hugging Face **Sentence Transformer** mode
 
 - Users can query interactively via [Gradio](https://www.gradio.app/).
 
+---
 This project was inspired by this [Kaggle notebook](https://www.kaggle.com/code/hinepo/q-a-chatbot-with-llms-harry-potter/notebook).
 
