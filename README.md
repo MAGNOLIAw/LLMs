@@ -1,8 +1,16 @@
-# LLMs
+## A Q&A Chatbot about *Harry Potter* Books
+This project is a Q&A chatbot built on top of **Large Language Models (LLMs)**, designed to answer questions about the *Harry Potter* book series.  
+It leverages the following tools and libraries:
+
+- [Hugging Face](https://huggingface.co/) — Pretrained embeddings and transformer models
+- [LangChain](https://www.langchain.com/) — Framework for chaining LLMs with retrieval and orchestration
+- [FAISS](https://faiss.ai/) — Facebook AI Similarity Search library for efficient vector similarity search
+- [Gradio](https://www.gradio.app/) — Build interactive web-based demos
+
+---
 
 ## Table of Contents
 - [Environment Setup](#environment-setup)
-- [A Q&A Chatbot about *Harry Potter* Books](#a-qa-chatbot-about-harry-potter-books)
 - [Supported Models](#supported-models)
 - [Retrieval-Augmented Generation (RAG) Pipeline with LangChain](#retrieval-augmented-generation-rag-pipeline-with-langchain)
   - [1. Load Multiple PDFs](#1-load-multiple-pdfs)
@@ -16,17 +24,6 @@ First, create the conda environment from the exported `environment.yml`:
 ```bash
 conda env create -f environment.yml
 ```
----
-
-## A Q&A Chatbot about *Harry Potter* Books
-This project is a Q&A chatbot built on top of **Large Language Models (LLMs)**, designed to answer questions about the *Harry Potter* book series.  
-It leverages the following tools and libraries:
-
-- [Hugging Face](https://huggingface.co/) — Pretrained embeddings and transformer models
-- [LangChain](https://www.langchain.com/) — Framework for chaining LLMs with retrieval and orchestration
-- [FAISS](https://faiss.ai/) — Facebook AI Similarity Search library for efficient vector similarity search
-- [Gradio](https://www.gradio.app/) — Build interactive web-based demos
-
 ---
 
 ## Supported Models
