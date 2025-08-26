@@ -90,7 +90,9 @@ For vectorization, the project uses a Hugging Face **Sentence Transformer** mode
 - Users can query interactively via [Gradio](https://www.gradio.app/).
 
 #### Demo Screenshots
+- Ask a question
 <img src="./assets/demo1.png" width="600">
+- Get the answer based on the context
 <img src="./assets/demo2.png" width="600">
 
 ---
