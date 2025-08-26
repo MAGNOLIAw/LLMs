@@ -10,6 +10,7 @@ It leverages the following tools and libraries:
 ---
 
 ## Table of Contents
+- [Remote & Local Machine Setup](#Remote--Local-Machine-Setup)
 - [Environment Setup](#environment-setup)
 - [Supported Models](#supported-models)
 - [Retrieval-Augmented Generation (RAG) Pipeline with LangChain](#retrieval-augmented-generation-rag-pipeline-with-langchain)
@@ -35,7 +36,6 @@ Then open in your browser:
 ```arduino
 http://local:8888
 ```
-
 
 🔹 If you also want to use a UI (e.g., Gradio)
 ```
