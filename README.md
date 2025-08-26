@@ -32,6 +32,7 @@ This will launch Jupyter Lab and show you a URL containing `token=xxxx`.
 ssh -p 19880 -L 8888:local:8888 xinyi@remote
 ```
 Then open in your browser:
+```arduino
 http://local:8888
 
 ```
