@@ -34,9 +34,9 @@ This project implements a **RAG workflow** using [LangChain](https://www.langcha
 - Example usage:
 ```
 cd "/Users/xinyi.wang/downloads/Harry Potter UK Edition"
-chmod +x convert_all.sh
-./convert_all.sh
-scp -P 19880 -r ~/downloads/"Harry Potter UK Edition"/pdf_out xinyi@xx.xx.xx.xxx:~/LLMs/
+chmod +x convert_epub2pdf.sh
+./convert_epub2pdf.sh.sh
+scp -P 19880 -r ~/downloads/"Harry Potter UK Edition"/pdf_out xinyi@xx.xx.xx.xxx:~/LLMs/input
 ```
 - PDFs are loaded from a specified directory using `DirectoryLoader` and `PyPDFLoader`.
 - Supports multi-threaded loading for efficiency.
