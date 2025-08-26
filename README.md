@@ -86,7 +86,12 @@ For vectorization, the project uses a Hugging Face **Sentence Transformer** mode
 
 - LangChain’s `RetrievalQA` combines context with the chosen LLM (WizardLM, LLaMA2, Mistral).
 
+### 5. Interact with Gradio UI
 - Users can query interactively via [Gradio](https://www.gradio.app/).
+
+#### Demo Screenshots
+<img src="./assets/demo1.png" width="400">
+<img src="./assets/demo2.png" width="400">
 
 ---
 This project was inspired by this [Kaggle notebook](https://www.kaggle.com/code/hinepo/q-a-chatbot-with-llms-harry-potter/notebook).
