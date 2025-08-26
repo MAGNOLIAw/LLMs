@@ -4,9 +4,9 @@
 ## Environment Setup
 
 First, create the conda environment from the exported `environment.yml`:
-
 ```bash
 conda env create -f environment.yml
+```
 
 ## A Q&A Chatbot about *Harry Potter* Books
 This project is a Q&A chatbot built on top of **Large Language Models (LLMs)**, designed to answer questions about the *Harry Potter* book series.  
@@ -37,7 +37,8 @@ This project implements a **RAG workflow** using [LangChain](https://www.langcha
 ### 1. Load Multiple PDFs
 - Convert `.epub` files to `.pdf` using [Calibre](https://calibre-ebook.com/):  
   ```bash
-  brew install --cask calibre  
+  brew install --cask calibre
+  ```
 - Batch conversion script: ./convert_epub2pdf.sh
 - Example usage:
 ```
