@@ -17,6 +17,7 @@ It leverages the following tools and libraries:
   - [2. Text Splitting](#2-text-splitting)
   - [3. Embedding & Vector Store](#3-embedding--vector-store)
   - [4. Retrieval & Question Answering](#4-retrieval--question-answering)
+- [5. Interact with Gradio UI](#5-Interact-with-Gradio-UI)
 
 ## Environment Setup
 
