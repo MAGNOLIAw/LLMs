@@ -1,5 +1,13 @@
 # LLMs
 
+
+## Environment Setup
+
+First, create the conda environment from the exported `environment.yml`:
+
+```bash
+conda env create -f environment.yml
+
 ## A Q&A Chatbot about *Harry Potter* Books
 This project is a Q&A chatbot built on top of **Large Language Models (LLMs)**, designed to answer questions about the *Harry Potter* book series.  
 It leverages the following tools and libraries:
