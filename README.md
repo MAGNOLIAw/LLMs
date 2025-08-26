@@ -34,10 +34,8 @@ ssh -p 19880 -L 8888:local:8888 xinyi@remote
 Then open in your browser:
 ```arduino
 http://local:8888
+```
 
-```
-[http://127.0.0.1:8888](http://local:8888)
-```
 
 🔹 If you also want to use a UI (e.g., Gradio)
 ```
