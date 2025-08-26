@@ -1,5 +1,14 @@
 # LLMs
 
+## Table of Contents
+- [Environment Setup](#environment-setup)
+- [A Q&A Chatbot about *Harry Potter* Books](#a-qa-chatbot-about-harry-potter-books)
+- [Supported Models](#supported-models)
+- [Retrieval-Augmented Generation (RAG) Pipeline with LangChain](#retrieval-augmented-generation-rag-pipeline-with-langchain)
+  - [1. Load Multiple PDFs](#1-load-multiple-pdfs)
+  - [2. Text Splitting](#2-text-splitting)
+  - [3. Embedding & Vector Store](#3-embedding--vector-store)
+  - [4. Retrieval & Question Answering](#4-retrieval--question-answering)
 
 ## Environment Setup
 
@@ -7,6 +16,7 @@ First, create the conda environment from the exported `environment.yml`:
 ```bash
 conda env create -f environment.yml
 ```
+---
 
 ## A Q&A Chatbot about *Harry Potter* Books
 This project is a Q&A chatbot built on top of **Large Language Models (LLMs)**, designed to answer questions about the *Harry Potter* book series.  
