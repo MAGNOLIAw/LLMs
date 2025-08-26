@@ -19,6 +19,56 @@ It leverages the following tools and libraries:
   - [4. Retrieval & Question Answering](#4-retrieval--question-answering)
 - [Interact with Gradio UI](#Interact-with-Gradio-UI)
 
+## Remote & Local Machine Setup
+🔹 1. Start Jupyter Lab on the remote machine
+```
+tmux new -s jl
+jupyter lab --no-browser --port=8888
+```
+This will launch Jupyter Lab and show you a URL containing `token=xxxx`.
+
+🔹 2. Use SSH port forwarding from your local machine
+```
+ssh -p 19880 -L 8888:local:8888 xinyi@remote
+```
+Then open in your browser:
+http://local:8888
+
+```
+[http://127.0.0.1:8888](http://local:8888)
+```
+
+🔹 If you also want to use a UI (e.g., Gradio)
+```
+ssh -p 19880 \
+    -L 8888:local:8888 \
+    -L 7860:local:7860 \
+    xinyi@remote
+```
+
+🔹 Check port usage
+On the remote server, run:：
+```
+netstat -tulnp | grep 7860
+```
+This shows which process is occupying port 7860.
+
+🔹 Kill the occupying process
+If it’s an old Gradio/Jupyter session not closed properly, you can kill it:
+```
+kill -9 <PID>
+```
+
+✅ You can open Jupyter via:
+```
+http://localhost:8888
+```
+
+✅ If you launch Gradio in the notebook with server_port=7860, you can access it at:
+```
+http://localhost:7860
+```
+
 ## Environment Setup
 
 First, create the conda environment from the exported `environment.yml`:
