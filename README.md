@@ -140,7 +140,7 @@ For vectorization, the project uses a Hugging Face **Sentence Transformer** mode
 
 Users can query interactively via [Gradio](https://www.gradio.app/).
 
-#### Demo Screenshots
+### Demo Screenshots
 - Ask a question
 <img src="./assets/demo1.png" width="600">
 
